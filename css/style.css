@@ -1,0 +1,37 @@
+/* Common styles for all screen sizes */
+.section {
+    background-color: rgb(241, 237, 197);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Styles for mobile devices */
+  @media screen and (max-width: 600px) {
+    .section {
+      font-size: 18px;
+    }
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .section {
+      font-size: 20px;
+    }
+    .responsive{
+        width: 60%;
+        height: 50vh;
+    }
+  }
+  
+  /* Styles for laptops and desktops */
+  @media screen and (min-width: 1025px) {
+    .section {
+      font-size: 24px;
+    }
+    .responsive{
+        width: 80%;
+        height: 80vh;
+    }
+  }
